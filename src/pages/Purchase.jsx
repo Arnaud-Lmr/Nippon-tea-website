@@ -165,7 +165,7 @@ function Purchase({ shoppingList, setShoppingList }) {
             </div>
             <img
               className={styles.imgCheck}
-              src="../public/checkCircle.png"
+              src="checkCircle.png"
               alt="ok logo"
             ></img>
           </div>

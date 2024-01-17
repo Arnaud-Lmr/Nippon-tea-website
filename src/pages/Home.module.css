@@ -9,7 +9,7 @@
 }
 
 .titleSection {
-  background-image: url(bg-image.jpg);
+  background-image: url("bg-image.jpg");
   background-size: 1800px;
   height: 780px;
   width: 100%;

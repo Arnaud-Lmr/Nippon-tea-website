@@ -45,10 +45,13 @@ function ProductPage({ products, shoppingList, index, onAddItem }) {
             {subscribed ? (
               <div>
                 <div className={styles.productOldPrice}>
-                  {products[index - 1].price.toLocaleString("fr-FR", {
-                    style: "currency",
-                    currency: "EUR",
-                  })}
+                  <div className={styles.productOldPriceThrough}>
+                    {products[index - 1].price.toLocaleString("fr-FR", {
+                      style: "currency",
+                      currency: "EUR",
+                    })}
+                  </div>
+                  <div>&nbsp;&nbsp;-10%</div>
                 </div>
                 <div className={styles.productPrice}>
                   {discountedPrice.toLocaleString("fr-FR", {

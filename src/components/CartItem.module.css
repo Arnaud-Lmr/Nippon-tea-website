@@ -7,9 +7,8 @@
   grid-template-areas: "articlePicture articleName" "articlePicture articleSubscription" "articlePicture removeButton";
   align-items: center;
   @media screen and (max-width: 600px) {
-    grid-template: 40% 30% 30%/100px 80px;
+    grid-template: 80px 30px 30px/100px 80px;
     grid-template-areas: "articlePicture articleName" "articlePicture articleSubscription" "articlePicture removeButton";
-    row-gap: 5px;
   }
 }
 
@@ -39,6 +38,9 @@ td {
   font-size: 26px;
   @media screen and (max-width: 1200px) {
     font-size: 15px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 12px;
   }
 }
 

@@ -85,9 +85,13 @@
 }
 
 .productOldPrice {
+  display: flex;
   font-family: "Poppins";
   font-size: 15px;
   font-weight: 500;
+}
+
+.productOldPriceThrough {
   text-decoration: line-through;
 }
 

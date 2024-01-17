@@ -1,0 +1,35 @@
+.customerReview {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  display: grid;
+  grid-template-rows: 90px 30px 80px 30px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.clientPicture {
+  height: 84px;
+  width: 84px;
+  border-radius: 50%;
+}
+
+.clientRating {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.clientComment {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.clientName {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 200;
+  color: #7c8087;
+}

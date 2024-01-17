@@ -1,0 +1,17 @@
+.plusMinus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+  border-color: #56b280;
+  border-width: 1px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #56b280;
+  cursor: pointer;
+}
+
+.box {
+  width: 30px;
+  text-align: center;
+}

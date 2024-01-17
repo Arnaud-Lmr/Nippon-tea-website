@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+.body {
+  padding: 20px 150px 0px 150px;
+  @media screen and (max-width: 1200px) {
+    padding: 20px 0px 20px 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 26px;
+  align-self: center;
+}
+
+.shoppingButton {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  color: #56b280;
+  text-decoration: underline;
+  align-self: center;
+  cursor: pointer;
+}
+
+.shoppingButton:hover {
+  text-decoration: none;
+}
+
+.shoppingTable {
+  border-collapse: collapse;
+  margin: 10px 0 10px 0;
+}
+
+tr {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #272727;
+}
+
+table thead {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0% 5% 70%;
+  gap: 15px;
+  @media screen and (max-width: 1200px) {
+    margin: 5% 0% 5% 5%;
+  }
+}
+
+.amountBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.amount {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.checkoutButton {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #56b280;
+  color: white;
+  padding: 5px 25px 5px 25px;
+  border: none;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkoutButton:hover {
+  color: rgb(234, 234, 234);
+}
+
+.taxInfo {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #9e9e9e;
+}

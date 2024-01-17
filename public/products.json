@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Green Japanese tea - 100g",
+    "price": 12.99,
+    "picture": "product1-picture.jpg",
+    "conservationAsset": "Long conservation",
+    "conservation": "Aluminium box for conservation",
+    "dimensions": "10cm x 6cm",
+    "weight": "100g"
+  },
+  {
+    "id": 2,
+    "name": "Red Japanese tea - 100g",
+    "price": 13.99,
+    "picture": "product2-picture.jpg",
+    "conservationAsset": "Long conservation",
+    "conservation": "Aluminium box for conservation",
+    "dimensions": "10cm x 6cm",
+    "weight": "100g"
+  },
+  {
+    "id": 3,
+    "name": "Green Japanese tea refill - 100g",
+    "price": 9.99,
+    "picture": "product3-picture.jpg",
+    "conservationAsset": "Eco-friendly",
+    "conservation": "Paper bag for low environmental impact",
+    "dimensions": "13cm x 4cm",
+    "weight": "100g"
+  },
+  {
+    "id": 4,
+    "name": "Red Japanese tea refill - 100g",
+    "price": 10.99,
+    "picture": "product4-picture.jpg",
+    "conservationAsset": "Eco-friendly",
+    "conservation": "Paper bag for low environmental impact",
+    "dimensions": "13cm x 4cm",
+    "weight": "100g"
+  }
+]
